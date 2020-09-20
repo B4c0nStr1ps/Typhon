@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Fortran module files
 *.mod
@@ -27,6 +27,19 @@
 *.lib
 
 # Executables
-*.exe
+#*.exe
 *.out
 *.app
+
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.VC.db
+*.suo
+
+tools/sharpmake/*
+!tools/sharpmake/Debug.Solution.sharpmake.cs
+!tools/sharpmake/generate_debug_solutions_vs2019.bat
+!/tools/sharpmake/bin
+!/tools/sharpmake/bin/*.dll
+!/tools/sharpmake/bin/*.exe
