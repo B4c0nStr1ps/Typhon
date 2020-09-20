@@ -1,6 +1,7 @@
 using Sharpmake;
 
 [module: Sharpmake.Include("sharpmake/Common.sharpmake.cs")]
+[module: Sharpmake.Include("packages/Packages.sharpmake.cs")]
 [module: Sharpmake.Include("sandbox/Sandbox.sharpmake.cs")]
 
 public static class Project
@@ -16,6 +17,7 @@ public static class Project
 
         public override void RegisterModules()
         {
+            RegisterModule<Ty.System>();
             RegisterModule<Ty.Sandbox>();
         }
     }
