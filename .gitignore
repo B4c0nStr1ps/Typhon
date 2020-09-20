@@ -37,6 +37,9 @@
 *.VC.db
 *.suo
 
+*.vs
+code/build
+
 tools/sharpmake/*
 !tools/sharpmake/Debug.Solution.sharpmake.cs
 !tools/sharpmake/generate_debug_solutions_vs2019.bat

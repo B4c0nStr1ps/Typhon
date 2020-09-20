@@ -1,0 +1,1 @@
+..\tools\sharpmake\bin\Sharpmake.Application.exe /sources(@"Solution.sharpmake.cs") /usecpp17(true) /devenv("Vs2019") /verbose

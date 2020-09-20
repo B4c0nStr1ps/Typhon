@@ -1,1 +1,1 @@
-[module: Sharpmake.Include("../../code/solutions/Sandbox.sln.sharpmake.cs")]
+[module: Sharpmake.Include("../../code/Solution.sharpmake.cs")]
